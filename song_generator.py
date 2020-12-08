@@ -12,7 +12,7 @@ Description: This file contains scripts that, when placed into the body of https
 from earsketch import *
 import random
 init()
-setTempo(105) 
+setTempo(90) 
 #A list containing the various tracks cycled in the song
 beat_bank = [YG_WEST_COAST_HIP_HOP_STRINGS_CHORDS_1, RD_RNB_ACOUSTIC_NYLONSTRING_4, RD_UK_HOUSE_ACOUSTICGUITAR_6, YG_GOSPEL_STRINGS_2, RD_RNB_ACOUSTIC_NYLONSTRING_5]
 
@@ -110,34 +110,22 @@ def music_machine():
     '''
     play_list = list_generator(12)
     count = 0
+    fitMedia(YG_FUNK_CONGAS_2, 1,1,148)
+    fade(1, -50, 0, 1, 5)
+    fitMedia(EIGHT_BIT_ANALOG_DRUM_LOOP_003, 5, 5, 146)
+    fade(5, -50, -10, 4, 9)
     for measure in range(13, 144):
         if (measure - 1) % 12 == 0:
             index = play_list[count]
             beat = beat_bank[index]
             play(beat, measure, measure + 12)
             count += 1
-    
-beat2 = low_beat_gen(200)  
 
-thud = OS_KICK01
-fitMedia(YG_FUNK_CONGAS_2, 1,1,100)
-fade(1, -50, 0, 1, 5)
-music_machine()
-
-drums1 = EIGHT_BIT_ANALOG_DRUM_LOOP_004
-drums2 = EIGHT_BIT_ANALOG_DRUM_LOOP_003
-setEffect(5, VOLUME, GAIN, -20)
-fitMedia(drums2, 5, 5, 100)
-fade(5, -50, -10, 4, 9)
+music_machine() 
 finish()
 
 
 #To Do:
-#Sync up tracks with pitched tracks
-#Sync tracks with kongo track
-#Make it so that a track can only loop twice in a row
-#Remove overlaps
-
-#Keep track of the current measure, and then change the octive's by something in a raondom range
-#Don't repear too much, but also weigh less of a jump in octive as better.
-#Each new one should only last 4 measures
+#Mix up/add variations of drum beats throughout song
+#Firgiure out a softer transition between sounds
+#Add a beat using low_beat_gen

@@ -21,6 +21,8 @@ Project Reflection: While I am proud of the songs that my program generates, I d
     While I planned to write my own chords and music, the outcome through EarSketch is less than ideal. EarSketch's sound
     library does not contain many relaxing beats, and coupled with my novice level understanding of music and mixing, I was
     unable to a program that creates relaxing songs that are smooth and whole. I spent a great deal of time leanring how EarSketch's
-    system worked, how to add certain effects, and experiment. While I wish I had the oppurutnity to use Sonic Pi's more desirable
+    system worked, how to add certain effects, and experiment. Addtiionally, working only from these loops made it challenging to have
+    clear, smooth sound at a low temp desired of a relaxing song. Most of the loops I could find were meant for much faster tempos
+    and thus the song lacks a certain polished sound. While I wish I had the oppurutnity to use Sonic Pi's more desirable
     functionality to compose notes and chords, I still enjoyed learning this other new program and am pleased with the music my
-    scripts create.
+    scripts create. 
