@@ -1,6 +1,4 @@
 # ear_music
-Author: Jasper Gordon
-Class: CSCI 3725
 Date 7 December 2020
 
 Project Description: As noted in the song_generator.py file documentation, the goal of this project is to use code
@@ -10,7 +8,7 @@ Project Description: As noted in the song_generator.py file documentation, the g
 
 How to Run: While this scripts in the song_generator.py file are written in Python, they utilize methods and variables
     exclusive to EarSketch's systme and thus the program must be run at https://earsketch.gatech.edu/earsketch2/. To run
-    the program, follow the link and past the entire body of the song_generator.py file into the EarSketch Code Editor. 
+    the program, follow the link and paste the entire body of the song_generator.py file into the EarSketch Code Editor. 
     Next, press the green "Run" button to generate and play a song. The song will different each time the program is run.
 
 Project Reflection: While I am proud of the songs that my program generates, I do not beleive they fully fall into the
