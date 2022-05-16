@@ -1,8 +1,7 @@
 # ear_music
 Date 7 December 2020
 
-Project Description: As noted in the song_generator.py file documentation, the goal of this project is to use code
-    to generate music. More specifically, to use in this case EarSketch to compose a relaxing song. Rather than compose
+Project Description: As noted in the song_generator.py file documentation, the goal of this project is to gneerate music with computer code. More specifically, to use EarSketch to compose a relaxing song. Rather than compose
     each note and chord, this projects aims to use a set of loops and a given set of parameters to make a song that goes
     beyond simple repetition.
 
